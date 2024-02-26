@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #14AE7C;
+    display: flex;
+    gap: 50rem;
+}
+.navbar img{
+    border-radius: 50%;
+    padding: 10px;
+}
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-image: linear-gradient(140deg, #53b394, #9DBC98);
+}
+.hero .title{
+    background-color: #438ACC;
+    padding: 10px;
+    color: white;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 1rem;
+    background-color: #14AE7C;
+    color: white;
+}
+.about-points{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 1rem;
+    
+}
+.about-page{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(140deg, #53b394, #9DBC98);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+}
+.about-page>div{
+    width: 50%;
+    margin-left: 25%;
+}
+.about-page p{
+    width: 50%;
+    text-align: center;
+}
+.about-page h1{
+    margin-left: 7%;
+    padding-bottom: 30px;
+}
+.about-page .details{
+    display: flex;
+    justify-content: center;    
+    gap: 10rem;
+    padding: 30px;
+    width: 80%;
+    margin-left: 0%;
+    border: 2px solid black;
+}
+.about-page .details div{
+    background-color: #438ACC;
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px solid black;
+}
+.about-page ul{
+    padding: 20px;
+}
+.back{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #438ACC;
+    color: black;
+    border:2px solid black;
+
+}
+.teams{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(100deg, #53b394, #9DBC98);
+    overflow: hidden;
+}
+.teams h1{
+    margin-top: 80px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5rem;
+    padding: 40px;
+    border: 2px solid black;
+    width: 80%;
+    margin-left: 10%;
+}
+.container h2,h3,p{
+    text-align: center;
+}
+.box{
+    background-color: #438ACC;
+    border-radius: 20px;
+    padding: 30px;
+    border: 2px solid black;
+}
+.teams .back{
+    margin-top:60px;
+    margin-left: 46.5%;
+    width: 7%;
+}
